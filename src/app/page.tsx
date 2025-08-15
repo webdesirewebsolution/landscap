@@ -1,27 +1,27 @@
 import Image from "next/image";
 import Header from "../Components/Header";
-import Banner from "./Banner/page";
-import About from "./About/page";
-import Counter from "./Counter/page";
-import CoreBusiness from "./CoreBusiness/page";
-import Expertise from "./Expertise/page";
-import Client from "./Client/page";
-import Help from "./Help/page";
+import Banner from "./banner/page";
+import About from "./about/page";
+import Counter from "./counter/page";
+import CoreBusiness from "./coreBusiness/page";
+import Expertise from "./expertise/page";
+import Client from "./client/page";
+import Help from "./help/page";
 // import Insights from "./Insights/page";
 import Insights from "../Components/Insights"
-import News from"./News/page";
+import News from"./news/page";
 import Footer from "../Components/Footer";
-import Contact from"./Contact/page";
-import Pebbanner from "./Pebbanner/page"
-import Projectpeb from "./Projectpeb/page";
+import Contact from"./contact/page";
+import Pebbanner from "./pebbanner/page"
+import Projectpeb from "./projectpeb/page";
 import Aboutpeb from "./Aboutpeb/page";
-import Platform from "./Platform/page";
-import Totalsolution from"./Totalsolution/page";
-import Pebbrand from  "./Pebbrand/page";
-import Pebcall from"./Pebcall/page";
-import Media from "./Media/page"
-import Menupage from "./Menupage/page";
-import System from "./System/page";
+import Platform from "./platform/page";
+import Totalsolution from"./totalsolution/page";
+import Pebbrand from  "./pebbrand/page";
+import Pebcall from"./pebcall/page";
+import Media from "./media/page"
+import Menupage from "./menupage/page";
+import System from "./system/page";
 export default function Home() {
   return (
     

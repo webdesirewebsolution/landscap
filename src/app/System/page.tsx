@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Footer from "../../Components/Footer";
-import Pebcall from "../Pebcall/page";
+import Pebcall from "../pebcall/page";
 import Pebheader from "../../Components/Pebheader"
 // Product interface
 interface Product {

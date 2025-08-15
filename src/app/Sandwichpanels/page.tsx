@@ -6,11 +6,11 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Platform from "../Platform/page";
-import Pebcall from "../Pebcall/page";
-import Pebfooter from "../Pebfooter/page";
-import Explore from"../Explore/page";
-import Menubussiness from"../Menubussiness/page";
+import Platform from "../platform/page";
+import Pebcall from "../pebcall/page";
+import Pebfooter from "../pebfooter/page";
+import Explore from"../explore/page";
+import Menubussiness from"../menubussiness/page";
 export default function LightGaugeSteelFraming () {
     interface FAQ {
   question: string;

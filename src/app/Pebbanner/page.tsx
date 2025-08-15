@@ -1,14 +1,14 @@
 "use client";
 import { useState, useEffect } from "react";
 import Aboutpeb from "../Aboutpeb/page";
-import Pebexpertise from "../Pebexpertise/page"
-import Platform from "../Platform/page"
-import Totalsolution from "../Totalsolution/page"
-import Media from "../Media/page"
-import Pebbrand from "../Pebbrand/page";
+import Pebexpertise from "../pebexpertise/page"
+import Platform from "../platform/page"
+import Totalsolution from "../totalsolution/page"
+import Media from "../media/page"
+import Pebbrand from "../pebbrand/page";
 import Pebheader from "../../Components/Pebheader"
 import Insights from "../Insights/page";
-import Pebfooter from"../Pebfooter/page";
+import Pebfooter from"../pebfooter/page";
 import { IoCallOutline } from "react-icons/io5";
 const slides = [
   

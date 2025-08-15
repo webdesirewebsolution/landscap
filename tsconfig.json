@@ -22,6 +22,6 @@
       "yes/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/Menubussiness", "src/app/Menupage"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/menubussiness", "src/app/menupage"],
   "exclude": ["node_modules"]
 }
