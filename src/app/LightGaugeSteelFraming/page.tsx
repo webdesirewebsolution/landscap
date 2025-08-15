@@ -6,12 +6,16 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Platform from "../platform/page";
 // import Platform from "../platform/page";
-import Pebcall from "../pebcall/page";
-import Pebfooter from "../pebfooter/page";
-import Explore from "../explore/page";
-import Menubussiness from "../menubussiness/page";
+// import Pebcall from "../pebcall/page";
+// import Pebfooter from "../pebfooter/page";
+// import Explore from "../explore/page";
+// import Menubussiness from "../menubussiness/page";
+import PlatformP from "../../Components/PlatformP";
+import PebCallP from "../../Components/PlatformP";
+import ExploreP from "../../Components/ExploreP";
+import MenuBussinessP from "../../Components/MenuBussinessP";
+
 
 export default function LightGaugeSteelFraming () {
     interface FAQ {
@@ -199,8 +203,8 @@ We provide end-to-end turnkey solutions, from design to installation, using insu
       </div>
     </section>
     {/* end description */}
-    <Explore />
-    <Menubussiness/>
+    <ExploreP />
+    <MenuBussinessP/>
     {/* special section */}
       <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
@@ -256,8 +260,8 @@ We provide end-to-end turnkey solutions, from design to installation, using insu
       </div>
     </section>
     {/* end special section */}
-     <Platform/>
-     <Pebcall/>
+     <PlatformP/>
+     <PebCallP/>
      {/* faqs */}
      <section className="max-w-4xl mx-auto px-4 py-12">
       {/* Heading */}
