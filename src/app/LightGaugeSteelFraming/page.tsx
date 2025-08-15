@@ -7,10 +7,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Platform from "../platform/page";
+// import Platform from "../platform/page";
 import Pebcall from "../pebcall/page";
 import Pebfooter from "../pebfooter/page";
-import Explore from"../explore/page";
-import Menubussiness from"../menubussiness/page";
+import Explore from "../explore/page";
+import Menubussiness from "../menubussiness/page";
+
 export default function LightGaugeSteelFraming () {
     interface FAQ {
   question: string;
