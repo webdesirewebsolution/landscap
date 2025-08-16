@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
 import Footer from "../../Components/Footer";
-import Pebcall from "../pebcall/page";
+// import Pebcall from "../pebcall/page";
 import Pebheader from "../../Components/Pebheader"
+import PebCallP from "../../Components/PebCallP";
 // Product interface
 interface Product {
   title: string;
@@ -334,7 +335,7 @@ export default function System() {
           </div>
         </div>
       </section>
-      <Pebcall />
+      <PebCallP />
       <Footer />
     </>
   );

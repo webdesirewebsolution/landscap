@@ -1,15 +1,25 @@
 "use client";
 import { useState, useEffect } from "react";
-import Aboutpeb from "../Aboutpeb/page";
-import Pebexpertise from "../pebexpertise/page"
-import Platform from "../platform/page"
-import Totalsolution from "../totalsolution/page"
-import Media from "../media/page"
-import Pebbrand from "../pebbrand/page";
+// import Pebexpertise from "../pebexpertise/page"
+// import Aboutpeb from "../Aboutpeb/page";
+// import Platform from "../platform/page"
+// import Totalsolution from "../totalsolution/page"
+import PlatformP from "../../Components/PlatformP"
+import AboutPebP from "../../Components/PlatformP"
+import TotalSolutionP from "../../Components/TotalSolutionP"
+import PebExpertiseP from "../../Components/PebExpertiseP"
+import MediaP from "../../Components/MediaP"
+import PebBrandP from "../../Components/PebBrandP"
+import Insights from "../../Components/Insights"
 import Pebheader from "../../Components/Pebheader"
-import Insights from "../Insights/page";
-import Pebfooter from"../pebfooter/page";
+import PebFooterP from "../../Components/PebFooterP"
+
+// import Media from "../media/page"
+// import Pebbrand from "../pebbrand/page";
+// import Insights from "../Insights/page";
+// import Pebfooter from"../pebfooter/page";
 import { IoCallOutline } from "react-icons/io5";
+
 const slides = [
   
   {
@@ -121,13 +131,13 @@ export default function Pebbanner() {
   </div>
 </div>
 
-<Aboutpeb/>
-<Pebexpertise/>
-<Platform/>
-<Totalsolution/>
+<AboutPebP/>
+<PebExpertiseP/>
+<PlatformP/>
+<TotalSolutionP/>
 <Insights/>
-<Media/>
-<Pebbrand/>
+<MediaP/>
+<PebBrandP/>
 <div className="bg-[#272727]  bg-repeat py-10 px-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-white">
           {/* Left text */}
@@ -152,7 +162,7 @@ export default function Pebbanner() {
           </div>
         </div>
       </div>
-<Pebfooter/>
+<PebFooterP/>
 </>
   );
 }
